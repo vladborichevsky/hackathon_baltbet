@@ -1,0 +1,118 @@
+@import './variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'TT Lakes Neue', sans-serif;
+}
+
+body {
+  width: 90%;
+  height: 100%;
+  padding: 10px;
+  font-weight: 400;
+  overflow-y: scroll;
+  margin: 0 auto;
+  background: url('/bckg.webp') top center/cover no-repeat;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 35px;
+  color: #ffff;
+}
+
+h3 {
+  font-size: 28px;
+  color: #ffff;
+}
+
+@media (max-width: 1000px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 900px) {
+  h2 {
+    font-size: 26px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 23px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@font-face {
+  font-family: 'TT Lakes Neue';
+  src: url('TTLakesNeue-Black.eot');
+  src:
+    local('TT Lakes Neue Black'),
+    local('TTLakesNeue-Black'),
+    url('/assets/font/TTLakesNeue-Black.eot?#iefix') format('embedded-opentype'),
+    url('/assets/font/TTLakesNeue-Black.woff2') format('woff2'),
+    url('/assets/font/TTLakesNeue-Black.woff') format('woff'),
+    url('/assets/font/TTLakesNeue-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes Neue';
+  src: url('TTLakesNeue-Bold.eot');
+  src:
+    local('TT Lakes Neue Bold'),
+    local('TTLakesNeue-Bold'),
+    url('/assets/font/TTLakesNeue-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/assets/font/TTLakesNeue-Bold.woff2') format('woff2'),
+    url('/assets/font/TTLakesNeue-Bold.woff') format('woff'),
+    url('/assets/font/TTLakesNeue-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes Neue';
+  src: url('TTLakesNeue-Medium.eot');
+  src:
+    local('TT Lakes Neue Medium'),
+    local('TTLakesNeue-Medium'),
+    url('/assets/font/TTLakesNeue-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/assets/font/TTLakesNeue-Medium.woff2') format('woff2'),
+    url('/assets/font/TTLakesNeue-Medium.woff') format('woff'),
+    url('/assets/font/TTLakesNeue-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes Neue';
+  src: url('TTLakesNeue-Regular.eot');
+  src:
+    local('TT Lakes Neue'),
+    local('TTLakesNeue-Regular'),
+    url('/assets/font/TTLakesNeue-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/assets/font/TTLakesNeue-Regular.woff2') format('woff2'),
+    url('/assets/font/TTLakesNeue-Regular.woff') format('woff'),
+    url('/assets/font/TTLakesNeue-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
