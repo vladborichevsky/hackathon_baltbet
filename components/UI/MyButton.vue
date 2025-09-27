@@ -12,7 +12,7 @@ button {
   color: var(--btn-txt);
   font-weight: 900;
   font-size: 22px;
-  line-height: 22px;
+  line-height: 1;
   padding: 10px 0;
   text-transform: uppercase;
   background-color: var(--main-color);
@@ -25,28 +25,21 @@ button:hover {
   box-shadow: 0 0 15px 5px rgba(194, 214, 235, 0.4);
 }
 
-@media (max-width: 1000px) {
-  button {
-    width: 280px;
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 900px) {
+@media (max-width: 992px) {
   button {
     width: 260px;
     font-size: 20px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
   button {
     width: 230px;
     font-size: 18px;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 440px) {
   button {
     width: 200px;
     font-size: 16px;

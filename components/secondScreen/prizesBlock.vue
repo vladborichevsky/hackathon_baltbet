@@ -44,13 +44,13 @@ const cards = [
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 992px) {
   .prizes-section {
     margin-top: 20px;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   .prizes-section {
     &__list {
       display: grid;
@@ -65,7 +65,7 @@ const cards = [
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   .prizes-section__list {
     grid-template-columns: 1fr 1fr;
   }

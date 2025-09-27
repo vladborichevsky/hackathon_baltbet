@@ -13,13 +13,14 @@
   padding: 10px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   .first_screen {
     margin-top: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 0 10px;
   }
 }
 </style>

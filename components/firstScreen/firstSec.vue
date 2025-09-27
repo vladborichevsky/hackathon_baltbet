@@ -68,15 +68,16 @@
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
   .first-section__descr {
-    font-size: 16px;
+    font-size: var(--descr-txt-fs-mid);
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   .first-section {
-    width: 80%;
+    width: 95%;
+    text-align: justify;
   }
 }
 </style>

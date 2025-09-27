@@ -66,17 +66,11 @@
 
 @media (max-width: 1200px) {
   .timeline-section__image--desktop {
-    margin-top: 20px;
+    margin-top: 25px;
   }
 }
 
-@media (max-width: 1100px) {
-  .timeline-section__image--desktop {
-    margin-top: 30px;
-  }
-}
-
-@media (max-width: 950px) {
+@media (max-width: 992px) {
   .timeline-section__image {
     &--desktop {
       display: none;
@@ -88,7 +82,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
   .timeline-section__image {
     &--mid {
       display: none;

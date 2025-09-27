@@ -18,7 +18,7 @@ defineProps<{ descr: string; img: string }>()
   position: relative;
   background-color: rgb(101, 31, 147, 0.3);
   width: 15%;
-  height: 330px;
+  padding: 5% 0;
   border-radius: 8px;
   box-shadow: 0 0 25px 5px rgba(194, 214, 235, 0.4);
 
@@ -59,50 +59,28 @@ defineProps<{ descr: string; img: string }>()
     width: 80%;
   }
 
-  @media (max-width: 1200px) {
-    height: 300px;
-  }
-
-  @media (max-width: 1100px) {
-    height: 280px;
-
+  @media (max-width: 992px) {
     &__descr {
-      font-size: 18px;
-    }
-  }
-
-  @media (max-width: 1000px) {
-    height: 250px;
-
-    &__descr {
+      bottom: -30px;
       font-size: 16px;
     }
   }
 
-  @media (max-width: 900px) {
-    height: 230px;
-
-    &__descr {
-      bottom: -30px;
-      font-size: 14px;
-    }
-  }
-
-  @media (max-width: 850px) {
-    height: 210px;
+  @media (max-width: 768px) {
+    width: 80%;
+    padding: 15% 0;
 
     &__descr {
       bottom: -25px;
-      font-size: 12px;
+      font-size: 15px;
     }
-  }
 
-  @media (max-width: 800px) {
-    height: 190px;
-  }
-
-  @media (max-width: 750px) {
-    width: 80%;
+    &::before {
+      width: 8px;
+      height: 8px;
+      top: 8px;
+      right: 8px;
+    }
   }
 }
 </style>

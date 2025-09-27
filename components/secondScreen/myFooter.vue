@@ -54,13 +54,13 @@
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
   .footer-section__image {
     width: 175px;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   .footer-section {
     margin-top: 50px;
     flex-direction: column;
@@ -72,11 +72,11 @@
 
     &__btn--mobile {
       display: block;
-      margin: 20px 0;
+      margin: 10px 0;
     }
 
     &__image {
-      margin: 10px 0;
+      margin: 0;
       width: 200px;
     }
   }

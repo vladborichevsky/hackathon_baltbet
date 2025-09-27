@@ -11,7 +11,7 @@
   padding-bottom: 65px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   .second_screen {
     padding-bottom: 20px;
   }

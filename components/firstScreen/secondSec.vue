@@ -52,21 +52,33 @@
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
   .what-section__descr {
-    font-size: 16px;
+    font-size: var(--descr-txt-fs-mid);
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   .what-section {
-    width: 80%;
+    width: 95%;
+    margin-top: 0;
+    text-align: justify;
   }
-}
 
-@media (max-width: 450px) {
   .what-section__decor {
     bottom: -5%;
+  }
+}
+
+@media (max-width: 440px) {
+  .what-section {
+    &__decor {
+      bottom: +5%;
+    }
+
+    &__btn {
+      margin-top: 15px;
+    }
   }
 }
 </style>
