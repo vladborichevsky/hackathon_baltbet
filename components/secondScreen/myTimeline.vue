@@ -35,7 +35,7 @@
     &--desktop {
       width: 100%;
       margin: 0 auto;
-      margin-bottom: 20px;
+      margin-bottom: 2rem;
     }
 
     &--mid,
@@ -45,7 +45,7 @@
 
     &--mid {
       width: 80%;
-      margin-top: 20px;
+      margin-top: 2rem;
     }
 
     &--mid-left {
@@ -59,14 +59,8 @@
     &--mobile {
       width: 75%;
       margin: 0 auto;
-      margin-top: 20px;
+      margin-top: 2rem;
     }
-  }
-}
-
-@media (max-width: 1200px) {
-  .timeline-section__image--desktop {
-    margin-top: 25px;
   }
 }
 

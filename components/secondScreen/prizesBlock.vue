@@ -23,7 +23,7 @@ const cards = [
 
 <style lang="scss" scoped>
 .prizes-section {
-  margin-top: 50px;
+  margin-top: 5rem;
   position: relative;
 
   &__title {
@@ -44,18 +44,12 @@ const cards = [
   }
 }
 
-@media (max-width: 992px) {
-  .prizes-section {
-    margin-top: 20px;
-  }
-}
-
 @media (max-width: 768px) {
   .prizes-section {
     &__list {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      row-gap: 20px;
+      row-gap: 2rem;
       justify-items: center;
     }
 

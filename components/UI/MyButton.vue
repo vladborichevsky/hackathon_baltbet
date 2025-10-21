@@ -8,41 +8,20 @@
 button {
   cursor: pointer;
   display: block;
-  width: 300px;
+  width: 35rem;
   color: var(--btn-txt);
   font-weight: 900;
-  font-size: 22px;
+  font-size: 2.8rem;
   line-height: 1;
-  padding: 10px 0;
+  padding: 1.2rem 0;
   text-transform: uppercase;
   background-color: var(--main-color);
-  border-radius: 8px;
+  border-radius: 0.8rem;
   border: none;
 }
 
 button:hover {
   transition: all 0.3s;
   box-shadow: 0 0 15px 5px rgba(194, 214, 235, 0.4);
-}
-
-@media (max-width: 992px) {
-  button {
-    width: 260px;
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 576px) {
-  button {
-    width: 230px;
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 440px) {
-  button {
-    width: 200px;
-    font-size: 16px;
-  }
 }
 </style>

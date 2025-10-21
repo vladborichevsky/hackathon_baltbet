@@ -7,20 +7,18 @@
 
 <style lang="scss" scoped>
 .first_screen {
-  margin-top: 20px;
+  margin-top: 2rem;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 1rem;
 }
 
 @media (max-width: 768px) {
   .first_screen {
     margin-top: 0;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
+    padding: 0 1rem;
   }
 }
 </style>

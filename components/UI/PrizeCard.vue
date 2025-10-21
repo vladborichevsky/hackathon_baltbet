@@ -14,12 +14,12 @@ defineProps<{ descr: string; img: string }>()
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 2.5rem;
   position: relative;
   background-color: rgb(101, 31, 147, 0.3);
   width: 15%;
   padding: 5% 0;
-  border-radius: 8px;
+  border-radius: 0.8rem;
   box-shadow: 0 0 25px 5px rgba(194, 214, 235, 0.4);
 
   &::before {
@@ -46,9 +46,9 @@ defineProps<{ descr: string; img: string }>()
     position: absolute;
     width: 100%;
     text-align: center;
-    bottom: -35px;
+    bottom: -3.5rem;
     color: #fff;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -59,21 +59,9 @@ defineProps<{ descr: string; img: string }>()
     width: 80%;
   }
 
-  @media (max-width: 992px) {
-    &__descr {
-      bottom: -30px;
-      font-size: 16px;
-    }
-  }
-
   @media (max-width: 768px) {
     width: 80%;
     padding: 15% 0;
-
-    &__descr {
-      bottom: -25px;
-      font-size: 15px;
-    }
 
     &::before {
       width: 8px;

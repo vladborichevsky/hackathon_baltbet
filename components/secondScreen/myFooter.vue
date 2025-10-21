@@ -39,7 +39,7 @@
 
 <style lang="scss" scoped>
 .footer-section {
-  margin-top: 95px;
+  margin-top: 9.5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -50,19 +50,12 @@
 
   &__image {
     display: block;
-    width: 200px;
-  }
-}
-
-@media (max-width: 992px) {
-  .footer-section__image {
-    width: 175px;
+    width: 20rem;
   }
 }
 
 @media (max-width: 768px) {
   .footer-section {
-    margin-top: 50px;
     flex-direction: column;
     justify-content: space-between;
 
@@ -72,12 +65,7 @@
 
     &__btn--mobile {
       display: block;
-      margin: 10px 0;
-    }
-
-    &__image {
-      margin: 0;
-      width: 200px;
+      margin: 1rem 0;
     }
   }
 }

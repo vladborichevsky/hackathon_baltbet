@@ -44,7 +44,7 @@
     &--baltbet {
       display: block;
       width: 110px;
-      margin-top: 15px;
+      margin-top: 1.5rem;
     }
   }
 
@@ -61,10 +61,11 @@
   &__descr {
     font-size: var(--descr-txt-fs-big);
     color: #fff;
+    text-align: justify;
   }
 
   &__btn {
-    margin-top: 25px;
+    margin-top: 2.5rem;
   }
 }
 
@@ -77,7 +78,6 @@
 @media (max-width: 768px) {
   .first-section {
     width: 95%;
-    text-align: justify;
   }
 }
 </style>

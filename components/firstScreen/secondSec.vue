@@ -1,8 +1,8 @@
 <template>
-  <section class="what-section" aria-labelledby="what-title">
-    <h2 id="what-title" class="what-section__title">Что это такое?</h2>
+  <section class="what" aria-labelledby="what-title">
+    <h2 id="what-title" class="what__title">Что это такое?</h2>
 
-    <p class="what-section__descr">
+    <p class="what__descr">
       Хакатон — это креативное мероприятие, в ходе которого участники объединяются в команды, чтобы
       за ограниченное время разработать инновационные идеи и решения, превращая свои мысли в
       реальные проекты, а также весело провести время в дружеской атмосфере сотрудничества и
@@ -18,20 +18,21 @@
       href="https://docs.google.com/forms/d/e/1FAIpQLScJ3LiEXgmgTAdiq1UZKsTd10O-OpZyuOd4HnNfWjmCZC719Q/viewform"
       target="_blank"
       rel="noopener noreferrer"
-      class="what-section__btn-link"
+      class="what__btn-link"
     >
-      <my-button class="what-section__btn">принять участие</my-button>
+      <my-button class="what__btn">принять участие</my-button>
     </a>
 
-    <img src="/el_2.webp" class="what-section__decor" alt="" role="presentation" />
+    <img src="/el_2.webp" class="what__decor" alt="" role="presentation" />
   </section>
 </template>
 
 <style lang="scss" scoped>
-.what-section {
+.what {
   position: relative;
   width: 45%;
-  margin-top: 30px;
+  margin-top: 3rem;
+  text-align: justify;
 
   &__descr {
     font-size: var(--descr-txt-fs-big);
@@ -48,37 +49,24 @@
   }
 
   &__btn {
-    margin-top: 25px;
+    margin-top: 2.5rem;
   }
 }
 
 @media (max-width: 992px) {
-  .what-section__descr {
+  .what__descr {
     font-size: var(--descr-txt-fs-mid);
   }
 }
 
 @media (max-width: 768px) {
-  .what-section {
+  .what {
     width: 95%;
     margin-top: 0;
-    text-align: justify;
   }
 
-  .what-section__decor {
+  .what__decor {
     bottom: -5%;
-  }
-}
-
-@media (max-width: 440px) {
-  .what-section {
-    &__decor {
-      bottom: +5%;
-    }
-
-    &__btn {
-      margin-top: 15px;
-    }
   }
 }
 </style>
